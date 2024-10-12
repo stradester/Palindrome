@@ -21,6 +21,7 @@ checkString.addEventListener("keydown", function () {
 function clearClick() {
     resetResults();
     checkString.value = "";
+    checkString.focus();
 }
 
 function resetResults () {
