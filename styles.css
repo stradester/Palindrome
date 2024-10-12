@@ -1,0 +1,46 @@
+body {
+    background-color: dimgray;
+}
+
+h1 {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings: "slnt" 14;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 200px;
+    padding: 2rem;
+}
+
+.form-floating {
+    display: flex;
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    padding-top: 10%;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    padding-left: 25%;
+    padding-right: 25%;
+}
