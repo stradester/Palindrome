@@ -2,16 +2,26 @@
 // variables
 var resultsString = document.querySelector(".results");
 var checkString = document.querySelector(".enter-text");
-var checkButton = document.querySelector(".btn");
+var checkButton = document.querySelector(".check");
+var clearButton = document.querySelector(".clear");
 
 // Listeners
 checkButton.addEventListener("click", function () {
     buttonClick();
 });
 
+clearButton.addEventListener("click", function () {
+    clearClick();
+});
+
 checkString.addEventListener("keydown", function () {
     resetResults();
 });
+
+function clearClick() {
+    resetResults();
+    checkString.value = "";
+}
 
 function resetResults () {
     resultsString.style.color = "black";
